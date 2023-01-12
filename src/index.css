@@ -1,6 +1,61 @@
+@font-face {
+	font-family: "Bad Comic";
+	src: url("../public/assets/fonts/AnyConv.com__Bad\ Comic.eot");
+	src: url("../public/assets/fonts/AnyConv.com__Bad\ Comic.eot?#iefix") format("embedded-opentype"), url("../public/assets/fonts/AnyConv.com__Bad\ Comic.woff2") format("woff2"), url("../public/assets/fonts/AnyConv.com__Bad\ Comic.woff") format("woff"), url("../public/assets/fonts/Bad\ Comic.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat-Medium";
+	src: url("../public/assets/fonts/Montserrat-Medium.eot");
+	src: url("../public/assets/fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../public/assets/fonts/Montserrat-Medium.woff2") format("woff2"), url("../public/assets/fonts/Montserrat-Medium.woff") format("woff"), url("../public/assets/fonts/Montserrat-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url("../public/assets/fonts/Montserrat-SemiBold.eot");
+	src: url("../public/assets/fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../public/assets/fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../public/assets/fonts/Montserrat-SemiBold.woff") format("woff"), url("../public/assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "DOCKER";
+	src: url("../public/assets/fonts/AnyConv.com__Docker.eot");
+	src: url("../public/assets/fonts/AnyConv.com__Docker.eot?#iefix") format("embedded-opentype"), url("../public/assets/fonts/AnyConv.com__Docker.woff2") format("woff2"), url("../public/assets/fonts/AnyConv.com__Docker.woff") format("woff"), url("../public/assets/fonts/Docker.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noah Bold Italic";
+	src: url("../public/assets/fonts/AnyConv.com__Noah\ Bold\ Italic.eot");
+	src: url("../public/assets/fonts/AnyConv.com__Noah\ Bold\ Italic.eot?#iefix") format("embedded-opentype"), url("../public/assets/fonts/AnyConv.com__Noah\ Bold\ Italic.woff2") format("woff2"), url("../public/assets/fonts/AnyConv.com__Noah\ Bold\ Italic.woff") format("woff"), url("../public/assets/fonts/Noah\ Bold\ Italic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noah Regular";
+	src: url("../public/assets/fonts/AnyConv.com__Noah\ Regular.eot");
+	src: url("../public/assets/fonts/AnyConv.com__Noah\ Regular.eot?#iefix") format("embedded-opentype"), url("../public/assets/fonts/AnyConv.com__Noah\ Regular.woff2") format("woff2"), url("../public/assets/fonts/AnyConv.com__Noah\ Regular.woff") format("woff"), url("../public/assets/fonts/Noah\ Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	width: 100%;
+	margin: 0 auto;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +65,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+
 }

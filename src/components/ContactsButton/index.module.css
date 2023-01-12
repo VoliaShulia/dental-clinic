@@ -1,0 +1,12 @@
+.contactsButton {
+	width: 251px;
+	height: 80px;
+	background: #823123;
+	border-radius: 40px;
+	font-family: 'Montserrat-Medium';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin-top: 31px;
+}
