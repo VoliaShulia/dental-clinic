@@ -79,6 +79,9 @@ html {
 	box-sizing: border-box;
 }
 
-.container {
-
+a:hover,
+a:focus,
+a:active {
+	opacity: .75;
 }
+

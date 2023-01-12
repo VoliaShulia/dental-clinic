@@ -4,13 +4,13 @@ import styles from './index.module.css'
 
 function RightWrapper() {
 	return (
-		<>
-		<div className={styles.rightWrapper}>
-			<h2 className={styles.strong}>Мы верим в силу вашей улыбки!</h2>
-			<Description className={styles.consultation} title="Бесплатная консультация" />
-			<ContactsButton />
+		<div className={styles.container}>
+			<div className={styles.rightWrapper}>
+				<h2 className={styles.strong}>Мы верим в силу вашей улыбки!</h2>
+				<Description className={styles.consultation} title="Бесплатная консультация" />
+				<ContactsButton />
+			</div>
 		</div>
-		</>
 	)
 }
 

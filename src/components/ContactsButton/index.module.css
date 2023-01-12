@@ -1,12 +1,17 @@
 .contactsButton {
-	width: 251px;
-	height: 80px;
-	background: #823123;
+	padding: 15px 35px;
+	background-color: #823123;
 	border-radius: 40px;
 	font-family: 'Montserrat-Medium';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 20px;
 	color: #FFFFFF;
 	margin-top: 31px;
+	cursor: pointer;
+	transition: background-color 200ms ease-in-out;
+}
+
+.contactsButton:hover, contactsButton:focus, contactsButton:active {
+		background-color: #652317;
 }
