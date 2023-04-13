@@ -1,0 +1,16 @@
+.callButton {
+	padding: 20px 37px;
+	background: #E3C24A;
+	border-radius: 30px;
+	font-family: 'Montserrat-SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.callButton:hover, callButton:focus, callButton:active {
+	background-color: #E8BC22;
+}

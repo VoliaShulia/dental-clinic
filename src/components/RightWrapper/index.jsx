@@ -6,7 +6,7 @@ function RightWrapper() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.rightWrapper}>
-				<h2 className={styles.strong}>Мы верим в силу вашей улыбки!</h2>
+				<h3 className={styles.strong}>Мы верим в силу вашей улыбки!</h3>
 				<Description className={styles.consultation} title="Бесплатная консультация" />
 				<ContactsButton />
 			</div>

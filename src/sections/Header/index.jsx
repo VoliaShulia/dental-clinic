@@ -7,8 +7,8 @@ function Header() {
 	return (
 		<div className={styles.header}>
 			<div className={styles.logoAll}>
-				<Logo />
-				<p className={styles.logoName}>Свилдент</p>
+					<Logo />
+					<p className={styles.logoName}>Свилдент</p>
 			</div>
 			<Menu />
 			<Phone />

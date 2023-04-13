@@ -1,10 +1,12 @@
 import Description from '../../components/Descriptions'
+import MenuLines from '../../components/MenuLines'
 import RightWrapper from '../../components/RightWrapper'
 import styles from './index.module.css'
 
 function FirstScreen() {
 	return (
 		<>
+		<MenuLines />
 			<section className={styles.firstScreen}>
 				<div className={styles.leftWrapper}>
 					<Description className={styles.happy} title='Мы рады представить вам профессиональные стоматологические услуги, которые зависят не только от технологий'/>

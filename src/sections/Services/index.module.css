@@ -1,0 +1,78 @@
+.services {
+	background: #C9C9C9;
+	background-image: url(../../img/noah-buscher-8A7fD6Y5VF8-unsplash.png);
+	background-size: 800px;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: grid;
+	grid-auto-columns: 720px;
+	grid-template-rows: repeat(3, 280px);
+
+}
+
+.smileTitle {
+	font-family: 'Montserrat-Medium';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.makeoverTitle {
+	font-family: 'Montserrat-Medium';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 80px;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+
+
+.smileGallery, .smileMakeover, .call, .servicesComponents {
+	border: 5px solid white;
+}
+
+
+
+.callDescription {
+	color: #FFFFFF;
+	width: 266px;
+}
+
+.dentistsWorkDescription {
+	width: 530px;
+}
+
+.call {
+	grid-column: 2;
+	grid-row: 1 / 3;
+	display: flex;
+	justify-content: space-between;
+	padding: 430px 70px 30px 36px;
+	align-items: center;
+}
+
+.smileGallery {
+	padding-top: 80px;
+	padding-left: 70px;
+}
+
+.galleryTitle {
+	margin-bottom: 28px;
+	font-family: 'Montserrat-SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.smileMakeover {
+	padding: 50px 70px;
+}
+
+.inactiveButton {
+	text-align: right;
+}
