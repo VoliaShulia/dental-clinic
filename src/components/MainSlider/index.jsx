@@ -7,25 +7,33 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 // Import Swiper styles
 import "swiper/css"
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
+import "swiper/css/free-mode"
+import "swiper/css/pagination"
+import "swiper/swiper.min.css";
+// import "swiper/modules/pagination/pagination.min.css"
+// import "swiper/modules/free-mode/free-mode.min.css"
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Pagination } from "swiper"
 
 export default function App() {
   return (
-    <div className={styles.container}>
-      <Swiper
+    <div className={styles.sliderWrapper}>
+      	<Swiper
         slidesPerView={4}
-        spaceBetween={140}
+        spaceBetween={110}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
         className="mySwiper"
-      >
+		style={{
+			"--swiper-pagination-color": "#E3C24A",
+			"--swiper-pagination-bullet-inactive-color": "#d1c69c",
+			"--swiper-pagination-bullet-inactive-opacity": "1",
+		  }}
+      	>
 				<SwiperSlide>
 					<div className={styles.servicesComponent}>
 						<h3 className={cn(styles.whiteningTitle, styles.componentsTitles)}>Отбеливание зубов</h3>
