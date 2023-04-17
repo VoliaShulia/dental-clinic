@@ -1,7 +1,7 @@
 import CallButton from '../../components/CallButton'
 import styles from './index.module.css'
 import Description from '../../components/Descriptions'
-import MainSlider from '../../components/MainSlider'
+import App from '../../components/MainSlider'
 
 
 function Services() {
@@ -19,7 +19,7 @@ function Services() {
 				<Description className={styles.callDescription} title="Если вы хотите такую же прекрасную улыбку – позвоните нам!" />
 				<CallButton />
 			</div>
-			<MainSlider />
+		<App />
 		</div>
 	)
 }

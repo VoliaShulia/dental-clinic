@@ -32,6 +32,7 @@
 
 .smileGallery, .smileMakeover, .call, .servicesComponents {
 	border: 5px solid white;
+	border-left: 0;
 }
 
 
@@ -52,11 +53,13 @@
 	justify-content: space-between;
 	padding: 430px 70px 30px 36px;
 	align-items: center;
+	border-right: 0;
 }
 
 .smileGallery {
 	padding-top: 80px;
 	padding-left: 70px;
+	border-bottom: 0;
 }
 
 .galleryTitle {
