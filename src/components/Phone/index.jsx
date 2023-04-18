@@ -7,7 +7,7 @@ function Phone() {
 			<a className={styles.phone}
 				href="tel:+375292424294"
 			>
-				+375(29)-24-24-294
+				+375292424294
 			</a>
 		</div>
 	)

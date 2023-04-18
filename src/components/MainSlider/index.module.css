@@ -49,3 +49,11 @@ callButton:focus .inactiveButton,
 callButton:active .inactiveButton {
 	border-color: black;
 }
+
+.strong {
+	font-family: 'Montserrat-Medium';
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.85);
+}
