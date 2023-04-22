@@ -38,10 +38,16 @@
 .callDescription {
 	color: #FFFFFF;
 	width: 266px;
+	font-family: 'Noah Bold Italic';
+	font-size: 13px;
+	line-height: 20px;
 }
 
 .dentistsWorkDescription {
-	width: 530px;
+	width: 470px;
+	font-family: 'Noah Bold Italic';
+	font-size: 13px;
+	line-height: 20px;
 }
 
 .call {
@@ -65,8 +71,7 @@
 	font-family: 'Montserrat-SemiBold';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 36px;
-	line-height: 40px;
+	font-size: 30px;
 	color: rgba(0, 0, 0, 0.85);
 }
 

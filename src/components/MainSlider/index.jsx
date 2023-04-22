@@ -31,7 +31,9 @@ export default function App() {
 		style={{
 			"--swiper-pagination-color": "#E3C24A",
 			"--swiper-pagination-bullet-inactive-color": "#d1c69c",
-			"--swiper-pagination-bullet-inactive-opacity": "1"
+			"--swiper-pagination-bullet-inactive-opacity": "1",
+			"--swiper-pagination-bullet-size": "10px",
+			"--swiper-pagination-bullet-horizontal-gap": "4px"
 		  }}
       	>
 				<SwiperSlide>

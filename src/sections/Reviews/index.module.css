@@ -1,0 +1,11 @@
+.reviewsWrapper {
+	background-color: #E5E5E5;
+	background-image: url(../../img/vinicius-wiesehofer-LS1e59caoNM-unsplash.png);
+	background-size: 800px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 800px;
+	background-position: right top;
+	padding-top: 60px;
+	padding-left: 100px;
+}
