@@ -1,4 +1,5 @@
 import styles from './index.module.css'
+import Instagram from './instagram.svg' 
 
 function Footer() {
     return (
@@ -14,7 +15,8 @@ function Footer() {
                     <a className={styles.email} href="shulgan.lelya@gmail.com">shulgan.lelya@gmail.com</a>
                     <a className={styles.phone} href="+375292424294">+375292424294</a>
                     <a className={styles.instagram} href="https://www.instagram.com/volia.a.o.f/">
-                        <img src="instagram.svg" alt="Instagram"/>Swilldent</a>
+                    @Swilldent
+                        <img className={styles.instagramPicture} src={Instagram} alt="Instagram" /></a>
                 </div>
             </div>
             <div className={styles.down}>

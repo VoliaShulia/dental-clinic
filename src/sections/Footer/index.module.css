@@ -26,7 +26,7 @@
 
 .adressWrapper {
     display: flex;
-    gap: 18px;
+    gap: 9px;
     justify-content: center;
     flex-direction: column;
     width: 212px;
@@ -34,7 +34,7 @@
 
 .contactsWrapper {
     display: flex;
-    gap: 8px;
+    gap: 5px;
     justify-content: center;
     flex-direction: column;
 }
@@ -69,4 +69,16 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+}
+
+.instagramPicture {
+    width: 15px;
+    margin-left: 5px;
+    
+}
+
+.instagram {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
