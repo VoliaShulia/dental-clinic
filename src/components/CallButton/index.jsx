@@ -2,7 +2,9 @@ import styles from './index.module.css'
 
 function CallButton() {
 	return (
-		<button className={styles.callButton}>Позвонить</button>
+		<a className='callButtonLink' href="tel:+375292424294">
+			<button className={styles.callButton}>Позвонить</button>
+		</a>
 	)
 }
 

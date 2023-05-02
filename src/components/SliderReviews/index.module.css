@@ -1,0 +1,60 @@
+.sliderWrapperReviews {
+    width: 690px;
+	height: 480px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding: 25px 60px 32px 25px;
+}
+
+.commentWrapper {
+    padding-bottom: 30px;
+}
+
+.iconRating {
+	background-image: url("star.png");
+	width: 100px;
+	height: 20px;
+	background-repeat: repeat-x;
+}
+
+.clientsTitle {
+	font-family: 'Montserrat-Medium';
+	font-weight: 500;
+	font-size: 42px;
+	line-height: 59px;
+	color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 30px;
+}
+
+.comment {
+	font-family: 'Noah Regular';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.person {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nextButton {
+    background-image: url(next.png);
+    width: 40px;
+    height: 25px;
+}
+
+.prevButton {
+    background-image: url(prev.png);
+    width: 40px;
+    height: 25px;
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}

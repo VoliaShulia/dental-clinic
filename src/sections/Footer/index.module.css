@@ -1,0 +1,84 @@
+.footerWrapper {
+    background: #B9AC6A;
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 140px 120px;
+    background-position: 650px 100px;
+}
+
+.adressTitle, .contactsTitle {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+}
+
+.adressParagraph, .timeParagraph, .email, .phone, .instagram {
+    font-family: 'Noah Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+} 
+
+.adressWrapper {
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    flex-direction: column;
+    width: 212px;
+}
+
+.contactsWrapper {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adressTitle {
+    margin-bottom: 2px;
+}
+
+.contactsTitle {
+    margin-bottom: 12px;
+}
+
+.upper {
+    padding: 27px 261px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down {
+    text-align: center;
+    padding: 18px 670px;
+    background-color: #E5E5E5;
+    background-size: 140px 120px;
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    background-position: center -80px;
+}
+
+.copirating {
+    font-family: 'Noah Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.instagramPicture {
+    width: 15px;
+    margin-left: 5px;
+    
+}
+
+.instagram {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

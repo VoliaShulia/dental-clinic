@@ -21,10 +21,8 @@
 
 .makeoverTitle {
 	font-family: 'Montserrat-Medium';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 80px;
+    font-size: 50px;
+    line-height: 70px;
 	color: rgba(0, 0, 0, 0.85);
 }
 
@@ -32,6 +30,7 @@
 
 .smileGallery, .smileMakeover, .call, .servicesComponents {
 	border: 5px solid white;
+	border-left: 0;
 }
 
 
@@ -39,10 +38,16 @@
 .callDescription {
 	color: #FFFFFF;
 	width: 266px;
+	font-family: 'Noah Bold Italic';
+	font-size: 13px;
+	line-height: 20px;
 }
 
 .dentistsWorkDescription {
-	width: 530px;
+	width: 470px;
+	font-family: 'Noah Bold Italic';
+	font-size: 13px;
+	line-height: 20px;
 }
 
 .call {
@@ -52,11 +57,13 @@
 	justify-content: space-between;
 	padding: 430px 70px 30px 36px;
 	align-items: center;
+	border-right: 0;
 }
 
 .smileGallery {
 	padding-top: 80px;
 	padding-left: 70px;
+	border-bottom: 0;
 }
 
 .galleryTitle {
@@ -64,8 +71,7 @@
 	font-family: 'Montserrat-SemiBold';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 36px;
-	line-height: 40px;
+	font-size: 30px;
 	color: rgba(0, 0, 0, 0.85);
 }
 
