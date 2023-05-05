@@ -1,6 +1,5 @@
 .footerWrapper {
     background: #B9AC6A;
-    background-image: url(Logo.png);
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 140px 120px;
@@ -29,7 +28,7 @@
     gap: 9px;
     justify-content: center;
     flex-direction: column;
-    width: 212px;
+    width: 140px;
 }
 
 .contactsWrapper {
@@ -48,7 +47,7 @@
 }
 
 .upper {
-    padding: 27px 261px;
+    padding: 27px 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -58,7 +57,6 @@
     padding: 18px 670px;
     background-color: #E5E5E5;
     background-size: 140px 120px;
-    background-image: url(Logo.png);
     background-repeat: no-repeat;
     background-position: center -80px;
 }
@@ -69,6 +67,7 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+    position: relative;
 }
 
 .instagramPicture {
@@ -81,4 +80,27 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+}
+
+.leftWrapper {
+    display: flex;
+    width: 33.3333%;
+    justify-content: flex-start;
+}
+
+.logoWrapper {
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightWrapper {
+    width: 33.3333%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoImg {
+    height: 140px;
+    transform: translateY(70px);
 }
